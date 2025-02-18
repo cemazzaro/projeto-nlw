@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+}
+
+:root{
+    --font-primaria: "Montserrat";
+    --font-secundaria: "Oxanium";
+    --primary-color: #6f9de2;
+    --secondary-color: #9871f3;
+}
+
+#conteiner{
+    width: 370px;
+    margin: 60px auto;
+    /*background-color: aquamarine;*/
+    text-align: center;
+        
+
+}
+
+#conteiner > header > img {
+    margin-bottom: 32px;
+
+}
+
+header{
+    font-family: var(--font-secundaria);
+    color: whitesmoke;
+}
+body{
+    background: url(background.png) no-repeat center/cover;
+    height: 100vh;
+}
+
+h1 > div{
+    color: var(--primary-color);
+
+}
+
+#app{
+    color: white;
+    font-family: var(--font-primaria);
+    margin: auto;
+    text-align: center;
+}
