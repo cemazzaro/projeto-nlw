@@ -2,16 +2,18 @@
 :root {
     --cor1: #6f9de2;
     --cor2: #9871f3;
+    --font-padrao: "Montserrat";
 }
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font: normal 15pt arial;
+    font: normal 15pt var(--font-padrao);
 }
 
 body{
-    background:url(background.png);
+    background:url(background.png) no-repeat center/cover;
+    height: 100vh;
 }
 
 header > h2 {
@@ -41,7 +43,7 @@ div {
 }
 
 div > h2{
-    text-align: justify;
+    
     font-size: 1.5em;
 }
 
