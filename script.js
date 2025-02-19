@@ -81,8 +81,8 @@ const startApp = () => {
     const content = `
     <h2>Inscrição</h2>    
     <form id="form">
-            <input type="email" name="email" id="email" placeholder="E-mail"><br>
-            <input type="text" name="phone" id="phone" placeholder="Telefone"><br>
+            <input type="email" name="email" id="email" placeholder="E-mail">
+            <input type="text" name="phone" id="phone" placeholder="Telefone">
             <button>
                 Confirmar
             </button>
