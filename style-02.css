@@ -11,6 +11,17 @@
     --font-secundaria: "Oxanium";
     --primary-color: #6f9de2;
     --secondary-color: #9871f3;
+    --tertiary-color: #344a6b18;
+    --gray-100: #DAE4F2;
+    --gray-200: #C8D0DA;
+    --gray-300: #95A1B1;
+    --gray-400: #6F7D90;
+    --gray-500: #2A313C;
+    --gray-600: #21252C;
+    --gray-700: #191D24;
+    --gray-800: #13161B;
+    --gray-900: #0F1216;
+
 }
 
 #conteiner{
@@ -41,9 +52,47 @@ h1 > div{
 
 }
 
-#app{
-    color: white;
+p{
+    margin: 20px 0px;
+}
+
+#app, #conteudo{
+    background-color: var(--gray-700);
+    width: 370px;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 10px;
     font-family: var(--font-primaria);
-    margin: auto;
+    color: var(--gray-300);
+}
+
+#app{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    
+}
+
+input{
+    
+    flex: auto;
+
+    background-color: var(--gray-800);
+    border-radius: 10px;
+    color: var(--gray-400);
+    font:bold var(--font-primaria);
+    
+}
+
+button{
+
+    flex-basis: 400px;
+
+    background-color: var(--gray-500);
+    border-radius: 10px;
+    color: var(--primary-color);
+    text-align: left;
+    font:bold var(--font-primaria);
     text-align: center;
 }
+
